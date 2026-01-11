@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup> <Folder Include="AutoMapper\" /> <Folder Include="Interfaces\" /> <Folder Include="Models\" /> <Folder Include="Models\Request\" /> <Folder Include="Models\Response\" /> <Folder Include="Services\" /> </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gerit.Infra.Data\Gerit.Infra.Data.csproj" />
+    <ProjectReference Include="..\Gerit.Domain\Gerit.Domain.csproj" />
+    <ProjectReference Include="..\Gerit.Infra.Integration\Gerit.Infra.Integration.csproj" />
+  </ItemGroup> </Project>

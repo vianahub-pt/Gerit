@@ -1,0 +1,6 @@
+@Gerit.Api_HostAddress = http://localhost:5255
+
+GET {{Gerit.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
